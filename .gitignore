@@ -1,0 +1,17 @@
+# Byte-compiled / Python Cache
+__pycache__/
+*.py[cod]
+*.cpython*
+
+# Heavy Model Checkpoints & Temporary Buffers
+checkpoints_v3/
+_tmp_wav/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Unreal Engine Artifacts
+Intermediate/
+Saved/
+DerivedDataCache/
