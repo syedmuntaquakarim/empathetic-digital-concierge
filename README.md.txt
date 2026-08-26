@@ -8,10 +8,11 @@
 > **Authors:** Syed Muntaqua Karim & Misbah Akhtar  
 > **Supervisor:** Prof. Dr. Sarfaraz Masood  
 
+📄 **[Read the full Technical Paper here](Empathetic_Digital_Concierge_Paper.pdf)**
+
 An end-to-end **Denoising Diffusion Probabilistic Model (DDPM)** that synthesizes emotionally expressive, 260-dimensional ARKit blendshape sequences for Unreal Engine 5 MetaHumans directly from 16 kHz monaural speech. 
 
 Unlike traditional deterministic regressors (LSTMs, Transformers) that suffer from *magnitude collapse* (averaging expressions to a neutral state), or standard VAEs that suffer from *posterior collapse* on sparse blendshape data, this architecture utilizes **Feature-wise Linear Modulation (FiLM)** and an **Anatomically Weighted Mean Squared Error (AWMSE)** to preserve identity-specific micro-expressions and sharp emotional fidelity.
-
 ---
 
 ## 📌 Key Architectural Contributions
