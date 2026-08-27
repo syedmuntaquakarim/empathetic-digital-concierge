@@ -29,7 +29,7 @@ Unlike traditional deterministic regressors (LSTMs, Transformers) that suffer fr
 ```
 16kHz Audio ──> [CNN-BiGRU Encoder] ──────┐
                                           v
-Emotion + Intensity ──> [Style MLP] ──> [FiLM Modulation] ──> [8-Block ResNet DDPM] ──> 260-dim ARKit CS
+Emotion + Intensity ──> [Style MLP] ──> [FiLM Modulation] ──> [8-Block ResNet DDPM] ──> 260-dim ARKit CSv
 ```
 
 ### Dataset & Synchronization
