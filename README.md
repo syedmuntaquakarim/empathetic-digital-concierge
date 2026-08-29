@@ -15,7 +15,7 @@ An end-to-end **Denoising Diffusion Probabilistic Model (DDPM)** that synthesize
 Unlike traditional deterministic regressors (LSTMs, Transformers) that suffer from *magnitude collapse* (averaging expressions to a neutral state), or standard VAEs that suffer from *posterior collapse* on sparse blendshape data, this architecture utilizes **Feature-wise Linear Modulation (FiLM)** and an **Anatomically Weighted Mean Squared Error (AWMSE)** to preserve identity-specific micro-expressions and sharp emotional fidelity.
 ---
 
-## 📌 Key Architectural Contribution
+## 📌 Key Architectural Contributions
 
 1. **FiLM-Conditioned Denoising:** Emotion conditioning is injected at *every* residual block via FiLM ($h' = \gamma \cdot h + \beta$) rather than simple input concatenation, fundamentally reshaping the denoiser's computation.
 2. **Continuous Intensity Interpolation:** Emotion is parameterized by a discrete class label and a continuous scalar $\alpha \in [0, 1]$, enabling fluid interpolation between mild (30%) and maximal (110%) expression amplitudes without retraining.
