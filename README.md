@@ -24,7 +24,7 @@ Unlike traditional deterministic regressors (LSTMs, Transformers) that suffer fr
 
 ---
 
-## 🏗️ System Pipeline
+## 🏗️ System Pipelin
 
 ```
 16kHz Audio ──> [CNN-BiGRU Encoder] ──────┐
