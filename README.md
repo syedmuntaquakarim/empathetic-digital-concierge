@@ -5,7 +5,7 @@
 [![Unreal Engine 5](https://img.shields.io/badge/Unreal_Engine-5.3+-black.svg)](https://www.unrealengine.com/)
 
 > **Academic Major Project** | Department of Computer Engineering, Jamia Millia Islamia (2025–2026)  
-> **Authors:** Syed Muntaqua Karim & Misbah Akhtar  
+> **Authors:** Syed Muntaqua Karim & Misbah Akhta  
 > **Supervisor:** Prof. Dr. Sarfaraz Masood  
 
 📄 **[Read the full Technical Paper here](Empathetic_Digital_Concierge_Paper.pdf)**
